@@ -20,7 +20,7 @@
 
 <body>
   <main>
-    <section class="box">
+    <section class="box-container" >
       <div class="imagen-mobile">
         <img class="imagen-mobile__fondo" src="images/bg-pattern-mobile.svg" alt="">
         <img class="imagen-mobile__ilustracion" src="images/illustration-woman-online-mobile.svg" alt="">
@@ -28,12 +28,11 @@
       </div>
       <div class="imagen-desktop">
         <img class="imagen-desktop__fondo" src="images/bg-pattern-desktop.svg" alt="">
-        <img src="images/illustration-box-desktop.svg" alt="">
-        <img src="images/illustration-woman-online-desktop.svg" alt="">
+        <img class="imagen-desktop__box" src="images/illustration-box-desktop.svg" alt="">
+        <img class="imagen-desktop__ilustracion" src="images/illustration-woman-online-desktop.svg" alt="">
       </div>
-      <div>
+      <div class="box">
         <h1 class="title">FAQ</h1>
-
         <ul class="preguntas">
           <li class="pregunta">
             <details>
@@ -58,7 +57,7 @@
                   <img src="images/icon-arrow-down.svg" alt="">
                 </div>
               </summary>
-              <p>No more than 2GB. All files in your account must fit your allotted storage
+               <p class="pregunta__respuesta">No more than 2GB. All files in your account must fit your allotted storage
               space.</p>
             </details>
           </li>
@@ -71,7 +70,7 @@
                   <img src="images/icon-arrow-down.svg" alt="">
                 </div>
               </summary>
-              <p>Click “Forgot password” from the login page or “Change password” from your
+               <p class="pregunta__respuesta">Click “Forgot password” from the login page or “Change password” from your
               profile page.
               A reset link will be emailed to you.</p>
             </details>
@@ -84,7 +83,7 @@
                   <img src="images/icon-arrow-down.svg" alt="">
                 </div>
               </summary>
-              <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+               <p class="pregunta__respuesta">Yes! Send us a message and we’ll process your request no questions asked.</p>
             </details>
           </li>
           <li class="pregunta">
@@ -95,7 +94,7 @@
                   <img src="images/icon-arrow-down.svg" alt="">
                 </div>
               </summary>
-              <p>Chat and email support is available 24/7. Phone lines are open during normal business hours</p>
+               <p class="pregunta__respuesta">Chat and email support is available 24/7. Phone lines are open during normal business hours</p>
             </details>
           </li>
         </ul>
