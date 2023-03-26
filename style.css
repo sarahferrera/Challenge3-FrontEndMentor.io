@@ -4,10 +4,9 @@
 }
 
 body {
-    margin: 0;
     font-family: 'Kumbh Sans', sans-serif;
     background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
-    height: 100%;
+    height: 100vh;
 }
 
 .box {
@@ -91,6 +90,18 @@ summary {
     transform: rotate(180deg);
 }
 
+.pregunta__titulo:hover{
+    color: orange;
+}
+
+open{
+    font-weight: bold;
+}
+
+.girar{
+    transform: rotate(180deg);
+}
+
 .pregunta__respuesta{
     margin-right: 52px;
 }
@@ -150,6 +161,8 @@ summary {
         width: 25%;
         align-self: center;
         padding-top: 0%;
+        /* margin: 0; */
+        margin-top: 550px;
 
     }
 
@@ -162,7 +175,7 @@ summary {
     .preguntas{
         width: 75%;
         padding-left: 0%;
-        height: 250px;
+
     }
 
 }
