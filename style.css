@@ -101,25 +101,58 @@ summary {
         display:flex;
         align-content: start;
         flex-wrap: wrap;
+        width: 50%;
+        position: absolute;
     }
 
     .imagen-desktop__fondo{
-        position: fixed;
-        width: 20%;
+        position: absolute;
+        /* width:42%; */
+        margin-left: -605px;
+        margin-top: -173px;
+
+    }
+
+    .imagen-desktop__ilustracion{
+        position: absolute;
+        margin-left: -205px;
+        margin-top: 222px;
 
     }
 
     .imagen-desktop__box{
-        position: fixed;
+        position: absolute;
+        margin-left: -269px;
+        margin-top: 367px;
     }
 
-    .imagen-desktop__ilustracion{
-        position: fixed;
-
+    .box-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100vh;
     }
 
     .box{
-        margin: 10%;
+        padding-left: 45%;
+        width: 25%;
+        align-self: center;
+        padding-top: 0%;
+        /* margin: 0; */
+        margin-top: 550px;
+
+    }
+
+    .title{
+        width: 75%;
+        text-align: left;
+
+    }
+
+    .preguntas{
+        width: 75%;
+        padding-left: 0%;
+
     }
 
 }
