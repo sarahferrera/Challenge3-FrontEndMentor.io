@@ -79,6 +79,17 @@ summary {
     font-size: 12px;
     font-weight: 100;
 }
+.pregunta__titulo:hover{
+    color: orange;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.girar{
+    transform: rotate(180deg);
+}
 
 .pregunta__respuesta{
     margin-right: 52px;
