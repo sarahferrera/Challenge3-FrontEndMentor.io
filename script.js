@@ -1,4 +1,4 @@
-const preguntas = document.querySelectorAll(".pregunta")
+const preguntas = document.querySelectorAll(".pregunta__content")
 const flecha = document.querySelectorAll(".pregunta__img")
 const titulo = document.querySelectorAll(".pregunta__titulo")
 
